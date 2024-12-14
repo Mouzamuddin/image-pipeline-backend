@@ -15,7 +15,7 @@ load_dotenv()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # React front-end origin
+    allow_origins=["https://imagepipelinemask.netlify.app"],  # React front-end origin
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

@@ -1,0 +1,57 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual environment directories
+venv/
+env/
+ENV/
+.venv/
+
+# FastAPI specific
+*.db
+*.sqlite3
+
+# Docker
+.docker/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Editor and IDE files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Environment variables and secret keys
+.env
+*.env
+
+# Test and coverage directories
+.coverage
+nosetests.xml
+*.cover
+*.hypothesis/
+.tox/
+.coverage.*
+
+# Pytest cache
+.cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Misc
+*.DS_Store
